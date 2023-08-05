@@ -1,5 +1,5 @@
-"use strict";
-let uname = "Qaisar Maan";
-let hello = `hello ${uname} how are you?`;
-let myname = 'ahsan';
-console.log(`hello i am ${myname} saeed`);
+var fname = "qaisar";
+var secname = "Farooq";
+var how = "how are you";
+console.log("hello ".concat(fname, " and ").concat(secname, " ").concat(how));
+//Template Literrals
